@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Shoppig website</title>
+     <link rel="stylesheet" href="s.css">
+</head>
+
+<body>
+     <div class="header">
+          <h1>Shopping 360</h1>
+          <div class="search">
+               <input type="search" 
+               id="searchvalue"
+               onkeyup="searchProduct(this.value)" placeholder="search for products">
+          </div>
+     </div>
+     <div class="products">
+          <div class="productwrapper" id="productwrapper1"></div>  
+     </div>
+     <div class="carts">
+          <h1>Cart</h1>
+          <div class="productwrapper" id= "cart"></div>  
+          <h4>Note:  Only cash and delivery is available.</h4>
+          <button onclick="purchase()" id="purchase">purchase</button>
+     </div>
+
+
+
+     </div>
+     <script src="s.js"></script>
+</body>
+
+</html>
